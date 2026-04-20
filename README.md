@@ -30,11 +30,11 @@ I use Codex, Claude, and VS Code as part of my daily workflow to prototype faste
 
 | Project | Technical Scope |
 |---|---|
-| `Tracking_Base_System` | Designed and implemented an event-driven tracking platform with React console, Fastify API, BullMQ/Redis router worker, PostgreSQL persistence, shared TypeScript contracts, Docker deployment layout, CI/CD pipelines, and Vitest coverage |
-| `fe-prank-Omar` | Built a fullstack TypeScript commerce and book-personalization platform with React/Vite, Express, PostgreSQL + Drizzle, admin/public routing, Stripe/Klarna/PayPal orchestration, S3 upload, AI/mockup generation, Docker, Vitest, and CI |
-| `influencer-commerce-platform` | Structured a split frontend/backend commerce platform with React, Express, PostgreSQL, Docker Compose, service tests, CI/CD, quality-gate docs, and Kubernetes-oriented deployment planning |
-| `experibro.com` | Developed an experience-booking platform with Next.js App Router, TypeScript, PostgreSQL + Prisma, tRPC, NextAuth.js, React Query, Tailwind CSS, Framer Motion, SEO docs, and database workflows |
-| `GG_Map_Scraper_Email_PhoneNumber` | Engineered an Express + Puppeteer scraping platform with authenticated UI, queue/concurrency control, checkpoint/resume, SSE live logs, CSV/XLSX export, Docker Compose, Zod env validation, Jest, and Supertest |
+| `Tracking_Base_System` | Designed and implemented an event-driven tracking platform with React console, Fastify API, BullMQ/Redis router worker, PostgreSQL persistence, shared TypeScript contracts, Docker deployment layout, CI/CD pipelines, and Vitest coverage across API, worker, and contract layers |
+| `fe-prank` | Built and optimized a production-facing React/TypeScript commerce and book-personalization experience with responsive product flows, checkout/payment UX, API routing conventions, Umami/Meta/Google tracking, Docker/Nginx deployment assets, Vitest coverage, and PageSpeed-driven SEO/performance work |
+| `influencer-commerce-platform` | Structured a split frontend/backend commerce platform with React, Express, PostgreSQL, Docker Compose, service tests, CI/CD, quality-gate documentation, and Kubernetes-oriented deployment planning |
+| `experibro.com` | Developed an experience-booking platform with Next.js App Router, TypeScript, PostgreSQL + Prisma, tRPC, NextAuth.js, React Query, Tailwind CSS, Framer Motion, SEO documentation, and database workflows |
+| `GG_Map_Scraper_Email_PhoneNumber` | Engineered an Express + Puppeteer scraping platform with authenticated UI, queue/concurrency control, checkpoint/resume workflows, SSE live logs, CSV/XLSX export, Docker Compose, Zod env validation, Jest, and Supertest |
 | `BFF_Replicate-Service` | Built a standalone AI generation microservice with Replicate workflows, API endpoints, S3/sharp processing, Swagger docs, Prometheus metrics, Docker packaging, CI, linting, and Vitest coverage |
 | `Tasket` | Built a native iOS task-tracking app with SwiftUI, SwiftData, WidgetKit/AppIntent, XcodeGen, GitHub Actions CI, technical specs, changelog, and contribution workflow |
 
