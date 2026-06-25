@@ -18,8 +18,9 @@ Fullstack web developer building production React/Next.js frontends and
 Node.js/PostgreSQL backends, with hands-on experience in **payment integrations,
 microservices on Kubernetes, and technical SEO / web performance**.
 
-I ship real products: commerce frontends with live Stripe/Klarna/PayPal checkout,
-event-driven backend services, and sites with Lighthouse SEO consistently at 90–100.
+I ship real products: solo-built commerce frontends with live Stripe/Klarna/PayPal
+checkout, event-driven backend services, and self-SEO'd sites scoring up to a
+perfect Lighthouse 100 across Performance, Accessibility, Best Practices, and SEO.
 
 ## Core Strengths
 
@@ -34,10 +35,10 @@ event-driven backend services, and sites with Lighthouse SEO consistently at 90�
 
 | Project | Technical Scope |
 |---|---|
-| `prankbook` (FRONTEND) | Production commerce + book-personalization app on **Next.js 15 + TypeScript**. Integrated **PayPal SDK (full sandbox → live flow)**, **Stripe via a payment microservice**, and **Klarna checkout**. Frontend calls backend services over **Kubernetes**, with full technical SEO, Umami/Meta/Google tracking, GSAP/Framer Motion, Zustand state, and Vitest + Playwright coverage |
+| `stattner` + `prankbook` (FRONTEND) | **Solo-built** the entire frontend for two production sites on **Next.js 15 + TypeScript with SSR**. Polished UX/UI, fast page loads (**Lighthouse Performance 92–95, SEO 92–100**). Integrated **PayPal SDK (full sandbox → live flow)**, **Stripe via a payment microservice**, and **Klarna checkout**; frontend calls backend services over **Kubernetes**. Full technical SEO, Umami/Meta/Google tracking, GSAP/Framer Motion, Zustand state, Vitest + Playwright coverage |
+| `congthienagency.com` | **Personal agency site I built and SEO'd end-to-end** — Next.js 15, bilingual (EN/VI). **Perfect Lighthouse 100 / 100 / 100 / 100** (Performance, Accessibility, Best Practices, SEO). Ranks #1 on Google for brand terms with a Business knowledge panel — JSON-LD, hreflang, sitemaps, local SEO |
 | `serena_spa_hoian` | Bilingual (EN/VI) Next.js site — **Lighthouse SEO 100, Performance 94–100** — hreflang, JSON-LD (LocalBusiness), next/image AVIF/WebP, dynamic per-locale metadata |
 | `Tracking_Base_System` | Event-driven tracking platform — Express API, **BullMQ/Redis** router worker, **PostgreSQL** event store, event deduplication, routing to **Meta CAPI & Google Ads**, React operations console, shared TypeScript contracts, Docker, CI/CD, Vitest |
-| `GG_Map_Scraper` | Express + Puppeteer scraping tool — auth UI, job queue / concurrency control, checkpoint/resume, SSE live logs, CSV/XLSX export, Zod env validation, Jest + Supertest |
 
 ## Performance Snapshot
 
@@ -45,6 +46,8 @@ Google Lighthouse / PageSpeed Insights
 
 | Site | Target | Performance | Accessibility | Best Practices | SEO |
 |---|---|---:|---:|---:|---:|
+| `congthienagency.com` | Desktop | **100** | **100** | **100** | **100** |
+| `stattner.com` | Desktop | 92 | 84 | 96 | **100** |
 | `prankbook.com` | Desktop | 95 | 93 | 96 | 92 |
 | `serena-spa` | Desktop | 100 | 87 | 100 | **100** |
 | `serena-spa` | Mobile | 94 | 91 | 100 | **100** |
