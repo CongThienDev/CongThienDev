@@ -38,11 +38,11 @@ on prototyping and reviews.
 
 | Project | Summary |
 |---|---|
-| **E-commerce platform** (company) | Frontend lead for a personalized-product storefront: AI-powered personalization flow, cart and checkout, promotions, analytics and SEO. 300+ merged PRs across frontend and services. |
-| **Influencer commerce platform** | Backend and admin app for influencer campaigns, coupons and payouts. → [repo](https://github.com/CongThienDev/influencer-commerce-platform) |
-| **Tracking Base System** | First-party event pipeline that deduplicates events and routes conversions to ad platforms. → [repo](https://github.com/CongThienDev/Tracking_Base_System) |
-| **Tasket** | iOS daily task app with widget and CI. → [repo](https://github.com/CongThienDev/Tasket) |
-| **Client websites** | Websites for local hospitality and service businesses, built and ranked on Google from scratch — e.g. [Serena Retreat](https://www.serenaretreat.com/en), [Cong Thien Agency](https://www.congthienagency.com). |
+| **E-commerce platform** (company) | Own the storefront end to end on a **Next.js + TypeScript** frontend backed by **Node.js / Java microservices on Kubernetes**. Drove the move from a monolith toward services, shipped the AI-powered personalization flow that is the product's core conversion path, and designed the checkout, pricing and promotion logic. Built the measurement layer (server-side conversion tracking) and the technical SEO foundation that made the site crawlable and rankable. 300+ merged PRs. |
+| **Influencer commerce platform** | Designed and built solo a **Node.js / Express + PostgreSQL** platform in a layered clean architecture, with a **React** admin app, containerized and deployed on **Kubernetes**. Covers campaign and coupon attribution, multi-provider payouts, social account verification and event-driven notifications — built to be extended with new providers without touching core logic. |
+| **Tracking Base System** | Architected a first-party event pipeline in **TypeScript** with an ingestion API, **Redis**-backed worker and **PostgreSQL** as the source of truth. Guarantees one real-world event → one conversion through idempotent IDs and deduplication, then fans out to Meta, Google Ads and TikTok — keeping attribution reliable when browser pixels are blocked. |
+| **Tasket** | Native iOS app in **Swift / SwiftUI / SwiftData** with a **WidgetKit** extension sharing one data store. Modeled day-based task chains with automatic carry-over and truthful history; CI builds every PR with **GitHub Actions**. |
+| **Client websites** | Deliver websites for hospitality and service businesses from discovery to launch on **Next.js** — bilingual content, booking flows, near-perfect Lighthouse scores and local SEO that took a new spa site to page one of Google and 20k+ Google Maps views within months. e.g. [Serena Retreat](https://www.serenaretreat.com/en), [Cong Thien Agency](https://www.congthienagency.com). |
 
 ## Contact
 
