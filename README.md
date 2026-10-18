@@ -32,7 +32,8 @@ on prototyping and reviews.
 - **Growth engineering** — technical SEO, structured data, Core Web Vitals, first-party event tracking
 - **Quality** — Vitest, Playwright E2E, ESLint / Prettier, pre-commit hooks
 - **Mobile** — native iOS apps with SwiftUI
-- **Automation & AI** — scrapers, bots and AI-assisted tools for internal workflows
+- **Automation & AI** — scrapers, crawlers and AI-assisted tools for internal workflows
+- **Games** — real-time multiplayer on Cloudflare Workers / Durable Objects
 
 ## Selected work
 
@@ -44,6 +45,7 @@ on prototyping and reviews.
 | **Tasket** | Native iOS app in **Swift / SwiftUI / SwiftData** with a **WidgetKit** extension sharing one data store. Modeled day-based task chains with automatic carry-over and truthful history; CI builds every PR with **GitHub Actions**. |
 | **Lead-generation pipeline** | Two production tools running 24/7 on an Ubuntu VPS. A **Google Maps scraper** (**Node.js / Express + Puppeteer**) with a web UI and CLI, a multi-job queue, polygon/grid area scanning, live logs and checkpoint/resume so interrupted jobs continue where they stopped. A **website email crawler** (**TypeScript + Playwright**) that dedupes URLs, checks homepage and contact pages over HTTP, falls back to a headless browser for JS-rendered sites and scores each email by confidence. Both have session auth, rate limiting and **robots.txt**-aware crawling; tested with **Jest / Supertest**. |
 | **Client websites** | Deliver websites for hospitality and service businesses from discovery to launch on **Next.js** — bilingual content, booking flows, near-perfect Lighthouse scores and local SEO that took a new spa site to page one of Google and 20k+ Google Maps views within months. e.g. [Serena Retreat](https://www.serenaretreat.com/en), [Cong Thien Agency](https://www.congthienagency.com). |
+| **Games** | **[Võ Lâm Chợ Trời](https://vo-lam-cho-troi.vo-lam-cho-troi.workers.dev/)**: a real-time multiplayer browser brawler. The game server runs on **Cloudflare Workers + Durable Objects**, and client and server share one room module. The client predicts movement with the same speed model as the server, so running stays smooth. I wrote the game design document and built the characters, team skills, a training room and a kill-cam. **[One Breath](https://diving-game2d.vercel.app/)**: a playable 2D freediving vertical slice with breath that drains faster at depth, air tanks, scene transitions through caves and an underwater camera mechanic. |
 
 ## Contact
 
